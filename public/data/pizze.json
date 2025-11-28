@@ -1,0 +1,7 @@
+{
+  "pizze": [
+    {"id":1,"nome":"Margherita 2.0","prezzo":"9,50€","descrizione":"Pomodoro San Marzano DOP, mozzarella fior di latte affumicata, basilico nano.","ingredienti":["Pomodoro DOP","Mozzarella affumicata","Basilico nano"],"disponibile":true},
+    {"id":2,"nome":"AI Diavola","prezzo":"12,00€","descrizione":"Salame piccante selezionato da algoritmo ML + peperoncino bio fermentato.","ingredienti":["Salame ML","Peperoncino bio","Mozzarella"],"disponibile":true},
+    {"id":3,"nome":"Quantum Quattro Stagioni","prezzo":"14,00€","descrizione":"Funghi shitake, prosciutto di Parma 24 mesi, carciofi violetto, olive taggiasche.","ingredienti":["Shitake","Parma 24m","Carciofi violetto","Taggiasche"],"disponibile":true}
+  ]
+}

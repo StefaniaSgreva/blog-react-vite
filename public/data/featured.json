@@ -1,0 +1,25 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "title": "Come l'AI sceglie la tua pizza perfetta",
+      "description": "Scopri il futuro della pizza con l'intelligenza artificiale.",
+      "image": "ai-pizza.jpg",
+      "slug": "ai-pizza-recommendation"
+    },
+    {
+      "id": 2,
+      "title": "Vite + React 19: Frontend da urlo",
+      "description": "Il blog costruito con tecnologie cutting-edge per un'esperienza utente top.",
+      "image": "vite-react.jpg",
+      "slug": "vite-react-pizza-blog"
+    },
+    {
+      "id": 3,
+      "title": "Impasto 72h: Scienza dietro la pizza perfetta",
+      "description": "Tutti i segreti per un impasto soffice e digeribile.",
+      "image": "impasto.jpg",
+      "slug": "impasto-72h"
+    }
+  ]
+}

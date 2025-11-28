@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Come l'AI sceglie la tua pizza perfetta",
+      "slug": "ai-pizza-recommendation",
+      "excerpt": "Algoritmo ML che analizza gusti e ordina pizze in 3 secondi.",
+      "date": "2025-11-25",
+      "author": "Mario Rossi",
+      "category": "tech",
+      "tags": ["ai", "foodtech", "react"],
+      "image": "ai-pizza.jpg",
+      "readTime": "5 min"
+    },
+    {
+      "id": 2,
+      "title": "Impasto 72h: Scienza dietro la pizza perfetta",
+      "slug": "impasto-72h",
+      "excerpt": "Chimica, idratazione e temperatura per digeribilità estrema.",
+      "date": "2025-11-20",
+      "author": "Chef Luigi",
+      "category": "ricette",
+      "tags": ["ricetta", "pizza-napoletana", "lievitazione"],
+      "image": "impasto.jpg",
+      "readTime": "8 min"
+    },
+    {
+      "id": 3,
+      "title": "QR Code Menu: +47% conversioni ordini",
+      "slug": "qr-menu-case-study",
+      "excerpt": "Come il nostro Progressive Web App ha rivoluzionato gli ordini.",
+      "date": "2025-11-15",
+      "author": "Tech Team",
+      "category": "business",
+      "tags": ["pwa", "business", "marketing"],
+      "image": "qr-menu.jpg",
+      "readTime": "6 min"
+    },
+    {
+      "id": 4,
+      "title": "Pizza Napoletana vs Romana: La battaglia",
+      "slug": "napoletana-vs-romana",
+      "excerpt": "Analisi tecnica: cornicione, ingredienti, forno elettrico vs legna.",
+      "date": "2025-11-10",
+      "author": "Pizza Expert",
+      "category": "pizza",
+      "tags": ["pizza-napoletana", "pizza-romana", "forno"],
+      "image": "napoletana-romana.jpg",
+      "readTime": "7 min"
+    },
+    {
+      "id": 5,
+      "title": "Vite + React 19: Frontend da urlo",
+      "slug": "vite-react-pizza-blog",
+      "excerpt": "Come abbiamo costruito questo blog con Suspense, Server Components e Tailwind v4.",
+      "date": "2025-11-05",
+      "author": "Dev Team",
+      "category": "tech",
+      "tags": ["vite", "react", "tailwind", "frontend"],
+      "image": "vite-react.jpg",
+      "readTime": "12 min"
+    },
+    {
+      "id": 6,
+      "title": "Ingredienti a Km 0: la pizza del territorio",
+      "slug": "ingredienti-km0",
+      "excerpt": "La filosofia dietro l’uso di prodotti locali e freschi.",
+      "date": "2025-11-01",
+      "author": "Sonia Verdi",
+      "category": "ricette",
+      "tags": ["km0", "locali", "ingredienti"],
+      "image": "ingredienti.jpg",
+      "readTime": "6 min"
+    },
+    {
+      "id": 7,
+      "title": "Come organizzare un delivery efficiente",
+      "slug": "delivery-efficiency",
+      "excerpt": "Soluzioni tecnologiche e logistiche per consegne rapide e sicure.",
+      "date": "2025-10-28",
+      "author": "Logistics Team",
+      "category": "business",
+      "tags": ["delivery", "logistica", "business"],
+      "image": "delivery.jpg",
+      "readTime": "8 min"
+    },
+    {
+      "id": 8,
+      "title": "Lievitazione naturale: il tempo è un alleato",
+      "slug": "lievitazione-naturale",
+      "excerpt": "Metodo tradizionale vs moderno per un impasto leggero.",
+      "date": "2025-10-25",
+      "author": "Chef Marco",
+      "category": "ricette",
+      "tags": ["lievitazione", "tradizione", "impasto"],
+      "image": "lievitazione.jpg",
+      "readTime": "7 min"
+    },
+    {
+      "id": 9,
+      "title": "Marketing digitale per pizzerie nel 2025",
+      "slug": "marketing-digitale-pizzeria",
+      "excerpt": "Strategie efficaci per aumentare la visibilità e le vendite.",
+      "date": "2025-10-20",
+      "author": "Marketing Guru",
+      "category": "business",
+      "tags": ["marketing", "social", "pizzerie"],
+      "image": "marketing.jpg",
+      "readTime": "9 min"
+    },
+    {
+      "id": 10,
+      "title": "Tecnologie IoT per il forno perfetto",
+      "slug": "iot-forno-pizza",
+      "excerpt": "Sensori e automazione per la pizza sempre cotta a puntino.",
+      "date": "2025-10-15",
+      "author": "Tech Team",
+      "category": "tech",
+      "tags": ["iot", "forno", "automazione"],
+      "image": "iot-forno.jpg",
+      "readTime": "5 min"
+    },
+    {
+      "id": 11,
+      "title": "Festival della pizza 2025: cosa aspettarsi",
+      "slug": "festival-pizza-2025",
+      "excerpt": "Eventi, specialità e ospiti imperdibili della manifestazione.",
+      "date": "2025-10-10",
+      "author": "Event Manager",
+      "category": "pizza",
+      "tags": ["eventi", "festival", "pizza"],
+      "image": "festival.jpg",
+      "readTime": "6 min"
+    },
+    {
+      "id": 12,
+      "title": "Preparare la perfetta pizza fritta a casa",
+      "slug": "pizza-fritta-casa",
+      "excerpt": "Ricetta e consigli per il fritto leggero e gustoso.",
+      "date": "2025-10-05",
+      "author": "Chef Luigi",
+      "category": "ricette",
+      "tags": ["ricetta", "pizza-fritta", "cucina-casalinga"],
+      "image": "pizza-fritta.jpg",
+      "readTime": "7 min"
+    }
+  ]
+}

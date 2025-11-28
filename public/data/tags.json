@@ -1,0 +1,46 @@
+{
+  "tags": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "color": "purple",
+      "icon": "🤖",
+      "count": 3
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "color": "emerald",
+      "icon": "⚡",
+      "count": 2
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "color": "blue",
+      "icon": "⚛️",
+      "count": 4
+    },
+    {
+      "id": "pizza-napoletana",
+      "name": "Pizza Napoletana",
+      "color": "red",
+      "icon": "🍕",
+      "count": 5
+    },
+    {
+      "id": "foodtech",
+      "name": "FoodTech",
+      "color": "indigo",
+      "icon": "🚀",
+      "count": 2
+    },
+    {
+      "id": "ricetta",
+      "name": "Ricetta",
+      "color": "orange",
+      "icon": "👨‍🍳",
+      "count": 3
+    }
+  ]
+}

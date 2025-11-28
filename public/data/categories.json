@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "color": "indigo",
+      "icon": "⚡",
+      "count": 5,
+      "slug": "tech"
+    },
+    {
+      "id": "ricette",
+      "name": "Ricette",
+      "color": "orange",
+      "icon": "🍕",
+      "count": 8,
+      "slug": "ricette"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "color": "emerald",
+      "icon": "📈",
+      "count": 3,
+      "slug": "business"
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza World",
+      "color": "red",
+      "icon": "🌍",
+      "count": 6,
+      "slug": "pizza"
+    }
+  ]
+}
