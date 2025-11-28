@@ -1,8 +1,11 @@
+import TheHeader from "./components/TheHeader"
+
+
 function App() {
 
   return (
     <>
-      <h1>Blog</h1>
+      <TheHeader />
     </>
   )
 }

@@ -82,9 +82,14 @@ a:hover {
   text-decoration: underline;
 }
 
+/* No underline for site logo in header */
+.site-logo,
+.site-logo:hover {
+  text-decoration: none;
+}
+
 /* Buttons - Enhanced */
 button {
-  display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
   padding: var(--space-sm) var(--space-lg);
