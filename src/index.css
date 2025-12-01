@@ -135,6 +135,65 @@ button:active {
 }
 
 /* ==========================================================================
+   Custom Scrollbar - Pizza Tech Theme
+   ========================================================================== */
+
+/* Scrollbar base (vale per tutti) */
+html {
+  scrollbar-width: thin;
+}
+
+/* Light mode scrollbar */
+@media (prefers-color-scheme: light) {
+  html {
+    scrollbar-color: #9ca3af #f3f4f6; /* thumb, track */
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #9ca3af;
+    border-radius: 999px;
+    border: 2px solid #f3f4f6;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* leggermente più scuro in hover */
+  }
+}
+
+/* Dark mode scrollbar */
+@media (prefers-color-scheme: dark) {
+  html {
+    scrollbar-color: hsl(var(--color-primary)) hsl(var(--color-bg-dark));
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: hsl(var(--color-bg-dark));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      to bottom,
+      hsl(var(--color-primary) / 0.9),
+      hsl(var(--color-secondary) / 0.9)
+    );
+    border-radius: 999px;
+    border: 2px solid hsl(var(--color-bg-dark));
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+      to bottom,
+      hsl(var(--color-primary)),
+      hsl(var(--color-secondary))
+    );
+  }
+}
+
+/* ==========================================================================
    Dark/Light Mode - Automatic + Manual
    ========================================================================== */
 @media (prefers-color-scheme: light) {
