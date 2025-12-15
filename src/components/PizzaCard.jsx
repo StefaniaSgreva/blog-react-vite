@@ -1,16 +1,17 @@
-const badgeColors = {
-  1: "bg-emerald-500/90 border-emerald-500/60",
-  2: "bg-red-500/90 border-red-500/60",
-  3: "bg-purple-500/90 border-purple-500/60",
-  4: "bg-lime-500/90 border-lime-500/60",
-  5: "bg-yellow-500/90 border-yellow-500/60",
-  6: "bg-amber-500/90 border-amber-500/60",
-  7: "bg-sky-500/90 border-sky-500/60",
+const badgeColorClasses = {
+  emerald: "bg-emerald-500/90 border-emerald-500/60",
+  red: "bg-red-500/90 border-red-500/60",
+  purple: "bg-purple-500/90 border-purple-500/60",
+  lime: "bg-lime-500/90 border-lime-500/60",
+  yellow: "bg-yellow-500/90 border-yellow-500/60",
+  amber: "bg-amber-500/90 border-amber-500/60",
+  sky: "bg-sky-500/90 border-sky-500/60",
 };
 
 export function PizzaCard({ pizza }) {
   const badgeClass =
-    badgeColors[pizza.badgeId] || "bg-red-500/90 border-red-500/60";
+    badgeColorClasses[pizza.badgeColor] ||
+    "bg-red-500/90 border-red-500/60";
 
   return (
     <article className="flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/70 transition hover:border-red-500/60 hover:bg-zinc-900/80">
@@ -23,9 +24,10 @@ export function PizzaCard({ pizza }) {
 
         {pizza.badge && (
           <span
-            className={`absolute right-2 top-2 inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-white shadow-md border ${badgeClass}`}
+            className={`absolute right-2 top-2 inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-white shadow-md border ${badgeClass}`}
           >
-            {pizza.badge}
+            {pizza.badgeIcon && <span>{pizza.badgeIcon}</span>}
+            <span>{pizza.badge}</span>
           </span>
         )}
       </div>

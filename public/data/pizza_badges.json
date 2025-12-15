@@ -1,12 +1,12 @@
 {
   "badges": [
-    { "id": 0, "label": "" },
-    { "id": 1, "label": "Best seller" },
-    { "id": 2, "label": "Piccante" },
-    { "id": 3, "label": "Gourmet" },
-    { "id": 4, "label": "Vegana" },
-    { "id": 5, "label": "Limited" },
-    { "id": 6, "label": "Premium" },
-    { "id": 7, "label": "Gluten free" }
+    { "id": 0, "label": "", "color": "", "icon": "" },
+    { "id": 1, "label": "Best seller",   "color": "emerald", "icon": "🏆" },
+    { "id": 2, "label": "Piccante",      "color": "red",     "icon": "🌶️" },
+    { "id": 3, "label": "Gourmet",       "color": "purple",  "icon": "🍽️" },
+    { "id": 4, "label": "Vegana",        "color": "lime",    "icon": "🌱" },
+    { "id": 5, "label": "Limited",       "color": "yellow",  "icon": "⏱️" },
+    { "id": 6, "label": "Premium",       "color": "amber",   "icon": "💎" },
+    { "id": 7, "label": "Gluten free",   "color": "sky",     "icon": "✅" }
   ]
 }
