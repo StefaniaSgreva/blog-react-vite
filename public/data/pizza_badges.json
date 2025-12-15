@@ -1,0 +1,12 @@
+{
+  "badges": [
+    { "id": 0, "label": "" },
+    { "id": 1, "label": "Best seller" },
+    { "id": 2, "label": "Piccante" },
+    { "id": 3, "label": "Gourmet" },
+    { "id": 4, "label": "Vegana" },
+    { "id": 5, "label": "Limited" },
+    { "id": 6, "label": "Premium" },
+    { "id": 7, "label": "Gluten free" }
+  ]
+}

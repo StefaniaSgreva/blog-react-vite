@@ -1,7 +1,84 @@
 {
   "pizze": [
-    {"id":1,"nome":"Margherita 2.0","prezzo":"9,50€","descrizione":"Pomodoro San Marzano DOP, mozzarella fior di latte affumicata, basilico nano.","ingredienti":["Pomodoro DOP","Mozzarella affumicata","Basilico nano"],"disponibile":true},
-    {"id":2,"nome":"AI Diavola","prezzo":"12,00€","descrizione":"Salame piccante selezionato da algoritmo ML + peperoncino bio fermentato.","ingredienti":["Salame ML","Peperoncino bio","Mozzarella"],"disponibile":true},
-    {"id":3,"nome":"Quantum Quattro Stagioni","prezzo":"14,00€","descrizione":"Funghi shitake, prosciutto di Parma 24 mesi, carciofi violetto, olive taggiasche.","ingredienti":["Shitake","Parma 24m","Carciofi violetto","Taggiasche"],"disponibile":true}
+    {
+      "id": 1,
+      "name": "Margherita 2.0",
+      "description": "Pomodoro San Marzano DOP, mozzarella fior di latte affumicata, basilico nano.",
+      "price": "9,50 €",
+      "published": true,
+      "badgeId": 1
+    },
+    {
+      "id": 2,
+      "name": "AI Diavola",
+      "description": "Salame piccante selezionato da algoritmo ML + peperoncino bio fermentato.",
+      "price": "12,00 €",
+      "published": true,
+      "badgeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Quattro Stagioni",
+      "description": "Funghi shitake, prosciutto di Parma 24 mesi, carciofi violetto, olive taggiasche.",
+      "price": "14,00 €",
+      "published": true,
+      "badgeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Veg Power",
+      "description": "Verdure di stagione, crema di zucca, semi tostati, zero compromessi.",
+      "price": "10,00 €",
+      "published": true,
+      "badgeId": 4
+    },
+    {
+      "id": 5,
+      "name": "Carbonara Crunch",
+      "description": "Guanciale croccante, crema d’uovo, pecorino romano, pepe nero.",
+      "price": "13,00 €",
+      "published": true,
+      "badgeId": 5
+    },
+    {
+      "id": 6,
+      "name": "Bufala Reloaded",
+      "description": "Pomodoro giallo, bufala DOP, basilico, olio EVO monocultivar.",
+      "price": "11,50 €",
+      "published": true,
+      "badgeId": 0
+    },
+    {
+      "id": 7,
+      "name": "Napoli Classic",
+      "description": "Acciughe del Cantabrico, capperi di Pantelleria, origano.",
+      "price": "11,00 €",
+      "published": true,
+      "badgeId": 0
+    },
+    {
+      "id": 8,
+      "name": "Truffle Byte",
+      "description": "Crema di tartufo, fior di latte, funghi porcini, granella di nocciole.",
+      "price": "16,00 €",
+      "published": true,
+      "badgeId": 6
+    },
+    {
+      "id": 9,
+      "name": "Pistacchio Dream",
+      "description": "Crema di pistacchio, mortadella artigianale, stracciatella.",
+      "price": "15,00 €",
+      "published": true,
+      "badgeId": 1
+    },
+    {
+      "id": 10,
+      "name": "Gluten Free Lab",
+      "description": "Impasto gluten free, pomodoro, mozzarella, basilico.",
+      "price": "12,50 €",
+      "published": false,
+      "badgeId": 7
+    }
   ]
 }
