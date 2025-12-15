@@ -10,7 +10,8 @@
       "category": "tech",
       "tags": ["ai", "foodtech", "react"],
       "image": "ai-pizza.jpg",
-      "readTime": "5 min"
+      "readTime": "5 min",
+      "published": true
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "category": "ricette",
       "tags": ["ricetta", "pizza-napoletana", "lievitazione"],
       "image": "impasto.jpg",
-      "readTime": "8 min"
+      "readTime": "8 min",
+      "published": true
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "category": "business",
       "tags": ["pwa", "business", "marketing"],
       "image": "qr-menu.jpg",
-      "readTime": "6 min"
+      "readTime": "6 min",
+      "published": true
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "category": "pizza",
       "tags": ["pizza-napoletana", "pizza-romana", "forno"],
       "image": "napoletana-romana.jpg",
-      "readTime": "7 min"
+      "readTime": "7 min",
+      "published": true
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "category": "tech",
       "tags": ["vite", "react", "tailwind", "frontend"],
       "image": "vite-react.jpg",
-      "readTime": "12 min"
+      "readTime": "12 min",
+      "published": true
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "category": "ricette",
       "tags": ["km0", "locali", "ingredienti"],
       "image": "ingredienti.jpg",
-      "readTime": "6 min"
+      "readTime": "6 min",
+      "published": true
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "category": "business",
       "tags": ["delivery", "logistica", "business"],
       "image": "delivery.jpg",
-      "readTime": "8 min"
+      "readTime": "8 min",
+      "published": true
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "category": "ricette",
       "tags": ["lievitazione", "tradizione", "impasto"],
       "image": "lievitazione.jpg",
-      "readTime": "7 min"
+      "readTime": "7 min",
+      "published": true
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "category": "business",
       "tags": ["marketing", "social", "pizzerie"],
       "image": "marketing.jpg",
-      "readTime": "9 min"
+      "readTime": "9 min",
+      "published": true
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "category": "tech",
       "tags": ["iot", "forno", "automazione"],
       "image": "iot-forno.jpg",
-      "readTime": "5 min"
+      "readTime": "5 min",
+      "published": true
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "category": "pizza",
       "tags": ["eventi", "festival", "pizza"],
       "image": "festival.jpg",
-      "readTime": "6 min"
+      "readTime": "6 min",
+      "published": true
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "category": "ricette",
       "tags": ["ricetta", "pizza-fritta", "cucina-casalinga"],
       "image": "pizza-fritta.jpg",
-      "readTime": "7 min"
+      "readTime": "7 min",
+      "published": true
     }
   ]
 }
