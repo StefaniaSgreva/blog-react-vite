@@ -14,7 +14,7 @@ export function PizzaCard({ pizza }) {
     "bg-red-500/90 border-red-500/60";
 
   return (
-    <article className="flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/70 transition hover:border-red-500/60 hover:bg-zinc-900/80">
+    <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/70 transition hover:border-red-500/60 hover:bg-zinc-900/80">
       <div className="relative">
         <img
           src={`https://picsum.photos/seed/pizza-${pizza.id}/600/360`}
@@ -32,17 +32,15 @@ export function PizzaCard({ pizza }) {
         )}
       </div>
 
-      <div className="p-4">
-        <header className="flex items-start justify-between gap-3">
-          <div>
-            <h3 className="text-sm font-semibold text-white">
-              {pizza.name}
-            </h3>
-            <p className="mt-1 text-xs text-gray-400">
-              {pizza.description}
-            </p>
-          </div>
-        </header>
+      <div className="flex flex-1 flex-col justify-between p-4">
+        <div>
+          <h3 className="text-sm font-semibold text-white">
+            {pizza.name}
+          </h3>
+          <p className="my-2 text-xs text-gray-400 line-clamp-1">
+            {pizza.description}
+          </p>
+        </div>
 
         <div className="mt-3 flex items-center justify-between text-sm">
           <span className="font-semibold text-white">{pizza.price}</span>
@@ -57,3 +55,4 @@ export function PizzaCard({ pizza }) {
     </article>
   );
 }
+
