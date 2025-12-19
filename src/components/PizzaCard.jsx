@@ -18,7 +18,7 @@ export function PizzaCard({ pizza }) {
       <div className="relative">
         <img
           src={`https://picsum.photos/seed/pizza-${pizza.id}/600/360`}
-          alt={pizza.name}
+          alt={`Pizza ${pizza.name}`}
           className="h-40 w-full object-cover"
         />
 
@@ -46,7 +46,8 @@ export function PizzaCard({ pizza }) {
           <span className="font-semibold text-white">{pizza.price}</span>
           <button
             type="button"
-            className="text-xs font-medium text-red-300 hover:text-red-200"
+            className="text-xs font-medium text-red-300 hover:text-red-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
+            aria-label={`Add ${pizza.name} to order`}
           >
             Aggiungi alla comanda
           </button>
